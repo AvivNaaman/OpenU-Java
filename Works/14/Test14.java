@@ -1,7 +1,7 @@
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
 /**
  * Tester to the class Ex14 of mmn 14
  * @version 2020a.1
@@ -164,6 +164,7 @@ public class Test14 {
         assertEquals(0, Ex14.countPaths(arr2));
 
         successMessageRecursion("4");
+		afterAll();
     }
 
     /**
@@ -178,6 +179,5 @@ public class Test14 {
      */
     private static void successMessageRecursion(String questionId) {System.out.println("Q"+questionId+" Success. Don't forget API with Description, @param and @return.");}
 
-    @AfterAll
     private static void afterAll() { System.out.println("Please Feedback and report any error or possible improvement!");}
 }
