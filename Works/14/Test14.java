@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 /**
  * Tester to the class Ex14 of mmn 14
- * @version 2020a.1
+ * @version 2020a.3
  * @author AvivN
  */
 public class Test14 {
@@ -107,6 +107,8 @@ public class Test14 {
                                             "aivtest", "avivte", "avivtes", "vivte", "vivtest"};
         /* You Can Add More Tests here. */
         testIsTransformedByArrays(original0, trasformed0, notTransformed0);
+        // test other stuff (Thx Oranit!)
+        assertFalse(Ex14.isTrans("avivvtest","avivtest"));
     }
 
     /**
@@ -155,7 +157,7 @@ public class Test14 {
                 {35,77,28,90,39,10,1 ,11,11,20},
                 {37,54,70,19,52,90,82,20,31,57},
         };
-	    ///* BUGFIX! *///
+        /* Bugfix: Thx Galia */
         final int arr1_result = 3;
         assertEquals(arr1_result, Ex14.countPaths(arr1));
 
@@ -165,9 +167,7 @@ public class Test14 {
         assertEquals(0, Ex14.countPaths(arr2));
 
         successMessageRecursion("4");
-		afterAll();
     }
-
     /**
      * prints nice success message by question number
      * @param questionId The question id/name
