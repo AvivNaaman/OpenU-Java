@@ -155,7 +155,8 @@ public class Test14 {
                 {35,77,28,90,39,10,1 ,11,11,20},
                 {37,54,70,19,52,90,82,20,31,57},
         };
-        final int arr1_result = 4;
+	    ///* BUGFIX! *///
+        final int arr1_result = 3;
         assertEquals(arr1_result, Ex14.countPaths(arr1));
 
         int[][] arr2 = {{11,1,3},{5,0,8},{1,5,8}};
