@@ -101,9 +101,9 @@ public class Test14 {
         final String[] trasformed0 = {"avivtest", "aaaavivtest", "aavviivvtteesstt", "aaaaavivttttttest",
                 "avvvvivvvvvteeeeeestttttt", "avivvtttteeeeeeeessst", "avivtestttt", "aavivtest", "avivvvvtttteeesst",
                 "aviiiiivtestt", "aaaaavvvvvvvviiiiiiiiiiivvvvvvvvvvvvvvvvvtttttttttteeeeeeeeeeeesssssssssstttttttttt"};
-        final String[] notTransformed0 = {"avivtest0", "0avivtest", "a", "v", "s", "t", "aviv", "test", "b", "avivteset",
+        final String[] notTransformed0 = {"avivtesta", "tavivtest", "a", "v", "s", "t", "aviv", "test", "b", "avivteset",
                                             "avivtsetttt", "tsetviva", "aaaaaaaaaaavvvvvvvvvvviiiiiiiiivvvvvvvvvvtttttttttteeeeeeeeeeseeeeeettttttt",
-                                            "totallydifferent", "avivtestwithend", "withstartavivtest", "avvitest", "avitest",
+                                            "iavets", "avivtestwithend", "testavivtest", "avvitest", "avitest",
                                             "aivtest", "avivte", "avivtes", "vivte", "vivtest"};
         /* You Can Add More Tests here. */
         testIsTransformedByArrays(original0, trasformed0, notTransformed0);
