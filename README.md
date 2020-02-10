@@ -1,5 +1,5 @@
 # Course 20441 In the Open University of Israel - Semester 2020a
 My Work in course 20441 of semester 2020a
-### Contents:
-- Maman 11 is fully published with results and things to notice
-- Maman 13 Stock Tester is published. You should run proivded tester too.
+## Contents:
+- Testers for mmn 12-15
+- Checked mmns + results with grades 11-13 (14 soon)
